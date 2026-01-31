@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "MyZoteroPluginStu",
+  "version": "1.0.0",
+  "description": "自用zotero插件,同时学习如何制作zotero插件。",
+  "homepage_url": "https://github.com/damnablefox/MyZoteroPluginStu",
+  "author": "盗天鬼狐",
+  "icons": {
+    "48": "content/icons/favicon@0.5x.png",
+    "96": "content/icons/favicon.png"
+  },
+  "applications": {
+    "zotero": {
+      "id": "MyZoteroPluginStu@damnablefox.com",
+      "update_url": "__updateURL__",
+      "strict_min_version": "6.999",
+      "strict_max_version": "8.*"
+    }
+  }
+}
